@@ -3,7 +3,7 @@ export interface Transaction {
   amount: number;
   category: string;
   description: string;
-  is_income: boolean;
+  isIncome: boolean;
   date: string;
 }
 
@@ -11,6 +11,6 @@ export interface FormData {
   amount: string;
   category: string;
   description: string;
-  is_income: boolean;
+  isIncome: boolean;
   date: string;
 }

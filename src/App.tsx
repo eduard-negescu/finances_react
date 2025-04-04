@@ -10,7 +10,7 @@ const defaultFormData = {
   amount: "",
   category: "",
   description: "",
-  is_income: false,
+  isIncome: false,
   date: "",
 };
 
@@ -37,7 +37,7 @@ const App = () => {
 
   const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    await api.post("/transactions/", formData);
+    await api.post("/transactions", formData);
     fetchTransactions();
     setFormData(defaultFormData);
   };

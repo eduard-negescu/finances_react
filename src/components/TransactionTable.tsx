@@ -24,7 +24,7 @@ const TransactionTable: React.FC<Props> = ({ transactions }) => {
             <td>{transaction.amount}</td>
             <td>{transaction.category}</td>
             <td>{transaction.description}</td>
-            <td>{transaction.is_income ? "Yes" : "No"}</td>
+            <td>{transaction.isIncome ? "Yes" : "No"}</td>
             <td>{transaction.date}</td>
           </tr>
         ))}

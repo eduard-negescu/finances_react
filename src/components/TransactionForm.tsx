@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import { FormData } from "../types";
 
 interface Props {
@@ -61,15 +61,15 @@ const TransactionForm: React.FC<Props> = ({
       </div>
 
       <div className="mb-3">
-        <label htmlFor="is_income" className="form-label">
+        <label htmlFor="isIncome" className="form-label">
           Income?
         </label>
         <input
           type="checkbox"
-          id="is_income"
-          name="is_income"
+          id="isIncome"
+          name="isIncome"
           onChange={handleInputChange}
-          checked={formData.is_income}
+          checked={formData.isIncome}
         />
       </div>
 
