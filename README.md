@@ -5,4 +5,3 @@
 #Install and run
 * "npm i"
 * "npm run dev" to run in developer mode
-![Description of the image](public/img.png)
